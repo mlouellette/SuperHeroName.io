@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../docs/assets/css/styling.css">
+
+</head>
+<body>
+    <form id="form">
+    <center><h1 id="title">What's your superhero name?</h1>
+    
+    <label for="firstName" id="firstName-label">First letter of your FIRST name?: </label><br>
+    <input id="firstName" type="text" name="firstName" class="form-inputs" placeholder="First letter of your first name" pattern="[A-Za-z]{1}" title="Letters only" maxlength="1" required></input><br>
+    
+    <label for="lastName" id="lastName-label">First letter of your LAST name?: </label><br>
+    <input id="lastName" type="text" name="lastName" class="form-inputs" placeholder="First letter of your last name" title="Letters only" pattern="[A-Za-z]{1}" maxlength="1" required></input>
+    
+    <br><br>
+    <button id="submit" type="button" value="Submit" class="submit-button">FIND OUT NOW !</button>
+    <br>
+    <p>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </p>
+    <p id="preName"></p>
+    <p id="heroName"></p>
+    
+    </center>
+    
+</form>
+<script src="../docs/assets/js/interaction.js"></script>
+
+</body>
+</html>

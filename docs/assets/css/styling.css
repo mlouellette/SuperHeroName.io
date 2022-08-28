@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Staatliches&display=swap');
+
+@media (max-width: 800px) {
+  h1 {
+    text-align: left !important;
+  }
+}
+
+html { 
+    background: url("../images/erik-mclean-27kCu7bXGEI-unsplash.jpg"), no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+form {
+  Background: rgba(237, 29, 36,0.85);
+  padding: 50px;
+  border-radius: 5px;
+  height: 820px;
+  width: 600px;
+  margin: auto auto auto auto;
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Kalam; 
+  color: white;
+
+
+}
+
+#firstName {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+  
+}
+
+#lastName {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+}
+
+#title {
+  font-family:  Staatliches;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+ 
+}
+
+#submit {
+  width: 400px;
+  padding: 10px;
+  border: 2px solid; 
+  color: white;
+  font-family:  Staatliches;
+  Background: transparent;
+  border-radius: 5px;
+  
+}
+
+#submit:hover {
+  color: grey;
+  font-family:  Staatliches;
+  Background: rgb(255, 255, 255);
+  cursor: pointer;
+  
+}
+
+#submit:active {
+  color: black;
+  
+}
+
+#preName {
+  padding: 15px;
+  font-size: 25px;
+}
+
+#heroName {
+  font-family:  Staatliches;
+  font-size: 75px;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  
+}
